@@ -1,0 +1,24 @@
+body {
+      font-family: sans-serif;
+      line-height: 1.6;
+      max-width: 700px;
+      margin: 2em auto;
+      padding: 1em;
+      background: #fdfdfd;
+      color: #333;
+    }
+    h1 {
+      color: #4a90e2;
+    }
+    footer {
+      margin-top: 2em;
+      font-size: 0.9em;
+      color: #777;
+    }
+    a {
+      color: #4a90e2;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
