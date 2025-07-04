@@ -10,7 +10,7 @@
 <body>
   <div class="container">
     <header>
-      <a target="_blank" href="https://chromewebstore.google.com/detail/purrfect-pomodoro-timer-p/aobapnhgpjlldncjopmbbfeoomombhel?hl=en-GB"><h1>🐾 Purrfect Pomodoro Timer</h1></a>
+      <a target="_blank" href="https://chromewebstore.google.com/detail/purrfect-pomodoro-timer-p/aobapnhgpjlldncjopmbbfeoomombhel?hl=en-GB"><h1>Purrfect Pomodoro Timer</h1></a>
       <h2>Privacy Policy</h2>
       <p class="last-updated"><strong>Last updated:</strong> July 2025</p>
     </header>
@@ -54,7 +54,10 @@
 
 
     <footer>
-      © 2025 Purrfect Pomodoro Timer
+      © <span id="year"></span> Purrfect Pomodoro Timer
+      <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+      </script>
     </footer>
   </div>
 </body>
